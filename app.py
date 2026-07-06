@@ -1,5 +1,5 @@
 import streamlit as st 
-from Utils import page_header
+from utils import page_header
 from blog_generator import generate_blog
 
 st.set_page_config(page_title="AI Blog Generator", page_icon="📃 ", layout="wide")
